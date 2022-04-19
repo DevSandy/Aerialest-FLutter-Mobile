@@ -1,0 +1,32 @@
+class Apis{
+  static const String base_url = "http://192.168.1.10:5000/";
+  static const String register_api = base_url+"api/register";
+  static const String login_api = base_url+"api/login";
+  static const String get_all_slider = base_url+"api/getallslider";
+  static const String get_all_service = base_url+"api/getallservices";
+  static const String resetpwd = base_url+"api/updatepassword";
+  static const String paymentmethods = base_url+"api/getallpaymentmethods";
+  static const String addtocart = base_url+"api/createcart";
+  static const String getallcart = base_url+"api/getallcart";
+  static const String deletecart = base_url+"api/deletecart";
+  static const String detetecartall = base_url+"api/detetecartall";
+  static const String getuserprofile = base_url+"api/getuserprofile";
+  static const String updateuser = base_url+"api/updateuser";
+  static const String updateshippingaddress = base_url+"api/updateshippingaddress";
+  static const String getallusergroups = base_url+"api/getallusergroups";
+  static const String getusers = base_url+"api/searchuser";
+  static const String creategroup = base_url+"api/creategroup";
+  static const String getallusersingroup = base_url+"api/getallusersingroup";
+  static const String adduserintogroup = base_url+"api/add_user_into_group";
+  static const String deleteusersingroup = base_url+"api/deleteusersingroup";
+  static const String detetegroup = base_url+"api/deletegroup";
+  static const String addmoneyforgroup = base_url+"api/addmoneyforgroup";
+  static const String getallwallettransaction = base_url+"api/getallwallettransaction";
+  static const String getalltransaction = base_url+"api/getalltransaction";
+  static const String create_transaction = base_url+"api/create_transaction";
+  static const String createorder = base_url+"api/createorder";
+  static const String detetecart = base_url+"api/deletecart";
+  static const String getallorder = base_url+"api/getallorder";
+  static const String getuserlogos = base_url+"api/getuserlogos";
+  static const String uploaduserlogo = base_url+"api/uploaduserlogo";
+}
